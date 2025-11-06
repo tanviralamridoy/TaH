@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { YoutubeIcon, ExternalLinkIcon } from './icons';
 
@@ -14,20 +13,20 @@ const content: ContentItem[] = [
     {
         title: "Building a React App from Scratch in 2024",
         type: "Video",
-        thumbnailUrl: "https://picsum.photos/seed/reacttut/400/225",
+        thumbnailUrl: "https://placehold.co/400x225/1a202c/f87171?text=React+Tutorial",
         url: "#",
         duration: "45:12"
     },
     {
         title: "Top 5 VS Code Extensions for Web Developers",
         type: "Article",
-        thumbnailUrl: "https://picsum.photos/seed/vscode/400/225",
+        thumbnailUrl: "https://placehold.co/400x225/1a202c/60a5fa?text=VS+Code+Extensions",
         url: "#"
     },
     {
         title: "My Gaming PC Build & Setup Tour",
         type: "Video",
-        thumbnailUrl: "https://picsum.photos/seed/pcbuild/400/225",
+        thumbnailUrl: "https://placehold.co/400x225/1a202c/f87171?text=PC+Setup+Tour",
         url: "#",
         duration: "15:30"
     }

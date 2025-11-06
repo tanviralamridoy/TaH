@@ -1,13 +1,12 @@
-
 import React from 'react';
 import { TwitchIcon, YoutubeIcon } from './icons';
 
 const Gaming: React.FC = () => {
     const favoriteGames = [
-        { name: "Cyberpunk 2077", imageUrl: "https://picsum.photos/seed/cyberpunk/300/400" },
-        { name: "Elden Ring", imageUrl: "https://picsum.photos/seed/eldenring/300/400" },
-        { name: "Valorant", imageUrl: "https://picsum.photos/seed/valorant/300/400" },
-        { name: "The Witcher 3", imageUrl: "https://picsum.photos/seed/witcher3/300/400" },
+        { name: "Cyberpunk 2077", imageUrl: "https://placehold.co/300x400/1a202c/facc15?text=Cyberpunk" },
+        { name: "Elden Ring", imageUrl: "https://placehold.co/300x400/1a202c/facc15?text=Elden+Ring" },
+        { name: "Valorant", imageUrl: "https://placehold.co/300x400/1a202c/facc15?text=Valorant" },
+        { name: "The Witcher 3", imageUrl: "https://placehold.co/300x400/1a202c/facc15?text=Witcher+3" },
     ];
 
     return (

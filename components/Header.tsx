@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 const Header: React.FC = () => {
@@ -32,7 +31,7 @@ const Header: React.FC = () => {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
                         <a href="#home" className="text-2xl font-bold text-cyan-400">
-                           DevFolio
+                           N. Ridoy
                         </a>
                     </div>
                     <div className="hidden md:block">

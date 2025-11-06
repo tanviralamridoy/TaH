@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { GithubIcon, ExternalLinkIcon } from './icons';
 
@@ -13,28 +12,28 @@ interface Project {
 
 const projects: Project[] = [
     {
-        title: "E-Commerce Platform",
-        description: "A full-featured online store with a modern UI, product management, user authentication, and a Stripe payment integration.",
-        tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
-        imageUrl: "https://picsum.photos/seed/ecomm/400/250",
-        liveUrl: "#",
-        repoUrl: "#"
+        title: "Personal Portfolio",
+        description: "This very website! A responsive personal portfolio built with React, TypeScript, and Tailwind CSS to showcase my skills and projects.",
+        tags: ["React", "TypeScript", "Tailwind CSS"],
+        imageUrl: "https://placehold.co/400x250/1a202c/76e2e2?text=Portfolio",
+        liveUrl: "https://nridoy.github.io",
+        repoUrl: "https://github.com/nridoy/nridoy.github.io"
     },
     {
-        title: "Task Management App",
-        description: "A collaborative task manager with drag-and-drop boards, real-time updates, and user notifications.",
-        tags: ["Vue.js", "Firebase", "SCSS"],
-        imageUrl: "https://picsum.photos/seed/taskapp/400/250",
+        title: "DevBlog Platform",
+        description: "A full-stack blogging platform for developers to share articles. Features a Markdown editor and user authentication.",
+        tags: ["Next.js", "Prisma", "PostgreSQL"],
+        imageUrl: "https://placehold.co/400x250/1a202c/76e2e2?text=DevBlog",
         liveUrl: "#",
-        repoUrl: "#"
+        repoUrl: "https://github.com/nridoy"
     },
     {
-        title: "Data Visualization Dashboard",
-        description: "An interactive dashboard for visualizing complex datasets using D3.js, providing insightful charts and graphs.",
-        tags: ["D3.js", "React", "Python", "Flask"],
-        imageUrl: "https://picsum.photos/seed/dataviz/400/250",
+        title: "Real-time Chat App",
+        description: "A web-based chat application using WebSockets for instant messaging, demonstrating real-time communication.",
+        tags: ["Socket.IO", "Node.js", "React"],
+        imageUrl: "https://placehold.co/400x250/1a202c/76e2e2?text=ChatApp",
         liveUrl: "#",
-        repoUrl: "#"
+        repoUrl: "https://github.com/nridoy"
     }
 ];
 

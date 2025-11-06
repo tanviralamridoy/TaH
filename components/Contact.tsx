@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { GithubIcon, TwitterIcon, LinkedinIcon, YoutubeIcon, TwitchIcon } from './icons';
 
@@ -25,7 +24,7 @@ const Contact: React.FC = () => {
                 I'm always open to new opportunities and collaborations. Feel free to reach out on any of these platforms!
             </p>
             <div className="flex justify-center space-x-6 md:space-x-8">
-                <SocialLink href="#" label="GitHub" icon={<GithubIcon className="w-8 h-8" />} />
+                <SocialLink href="https://github.com/nridoy" label="GitHub" icon={<GithubIcon className="w-8 h-8" />} />
                 <SocialLink href="#" label="LinkedIn" icon={<LinkedinIcon className="w-8 h-8" />} />
                 <SocialLink href="#" label="Twitter" icon={<TwitterIcon className="w-8 h-8" />} />
                 <SocialLink href="#" label="YouTube" icon={<YoutubeIcon className="w-8 h-8" />} />

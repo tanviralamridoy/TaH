@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Hero: React.FC = () => {
@@ -6,13 +5,13 @@ const Hero: React.FC = () => {
         <section id="home" className="min-h-screen flex items-center justify-center -mt-16">
             <div className="text-center">
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight">
-                    <span className="block">Hi, I'm Alex Doe</span>
+                    <span className="block">Hi, I'm N. Ridoy</span>
                     <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
-                        Developer, Gamer, Creator
+                        Full-Stack Developer
                     </span>
                 </h1>
                 <p className="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-gray-400">
-                    I build immersive digital experiences, conquer virtual worlds, and share my passion through creative content. Welcome to my corner of the internet.
+                    I build immersive digital experiences with a focus on performance and user experience. Welcome to my personal corner of the internet.
                 </p>
                 <div className="mt-8 flex justify-center gap-4">
                     <a
